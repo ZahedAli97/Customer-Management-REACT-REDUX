@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "customers": [
+    {
+      "id": 1,
+      "name": "cust1",
+      "email": "cust1@abc.com",
+      "phone": "1133212314"
+    },
+    {
+      "id": 2,
+      "name": "cust2",
+      "email": "cust2@abc.com",
+      "phone": "1133212314"
+    },
+    {
+      "id": 3,
+      "name": "cust3",
+      "email": "cust3@abc.com",
+      "phone": "1133212314"
+    },
+    {
+      "id": 4,
+      "name": "cust4",
+      "email": "cust4@abc.com",
+      "phone": "1133212314"
+    },
+    {
+      "id": 5,
+      "name": "cust5",
+      "email": "cust5@abc.com",
+      "phone": "1133212314"
+    },
+    {
+      "name": "Mir",
+      "email": "mir@mail.com",
+      "mobile": "6767688667",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+import logo from "./logo.svg";
+import "./App.css";
+
+function App() {
+  let rootClassName = "App";
+  let message = "Hello React!!!";
+  return (
+    <div className={rootClassName}>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>{message}</p>
+        <p>{new Date().toDateString() ? "Tue 09 july 2019" : "No date"}</p>
+        <ul>
+          {[1, 2, 3, 4, 5].map(n => (
+            <li>{n}</li>
+          ))}
+        </ul>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
+ 
+
+ ----------------------------------------------------------------------------------------------------------
