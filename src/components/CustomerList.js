@@ -43,9 +43,9 @@ class CustomerList extends React.Component {
 
 function mapStateToProps(state) {
   return {
-    customers: state.customers,
-    isLoading: state.isLoading,
-    error: state.error
+    customers: state.customers.customers,
+    isLoading: state.customers.isLoading,
+    error: state.customers.error
   };
 }
 
